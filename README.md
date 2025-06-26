@@ -27,7 +27,7 @@ AppPlayer is a universal MCP (Model Context Protocol) client that can connect to
 1. Clone the repository:
 ```bash
 git clone https://github.com/app-appplayer/app_player.git
-cd makemind/app_player
+cd app_player
 ```
 
 2. Install dependencies:
