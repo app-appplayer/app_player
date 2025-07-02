@@ -119,18 +119,18 @@ packages:
     dependency: transitive
     description:
       name: flutter_mcp_ui_core
-      sha256: "194bbf93080f4a8322139c3d6aae407461c6a3886432da9bf5dbc0e0ba0d03a9"
+      sha256: "0dafd7ae9539aa7fee79456ca8a8a3269ca4ea824ec8e5749f2e0a58d2b44619"
       url: "https://pub.dev"
     source: hosted
-    version: "0.2.0"
+    version: "0.2.1"
   flutter_mcp_ui_runtime:
     dependency: "direct main"
     description:
       name: flutter_mcp_ui_runtime
-      sha256: "41e064591317b73aca3d72feae6eccb7cea9cc2b5d3eac84134d83003ec3b66f"
+      sha256: "892eb3ce041d533394657a49a4be7afd3cd4d38d712bc7d9c8ac0a1dc795f7a4"
       url: "https://pub.dev"
     source: hosted
-    version: "0.2.2"
+    version: "0.2.3"
   flutter_shaders:
     dependency: transitive
     description:
@@ -243,10 +243,10 @@ packages:
     dependency: "direct main"
     description:
       name: mcp_client
-      sha256: "2913067e48558330ba2c3a926a969a710c93f21f079640a1965c667d9ef8811e"
+      sha256: c28a5c06f1056ebfbe5f571bd2a24138ad9f4556540fb0d4171f5aceb85acd61
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.1"
   meta:
     dependency: transitive
     description:

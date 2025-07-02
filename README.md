@@ -61,6 +61,20 @@ flutter pub get
 flutter run
 ```
 
+### Building the App
+
+**Important**: When building AppPlayer for release, you must use the `--no-tree-shake-icons` flag to ensure dynamic icons work properly:
+
+```bash
+flutter build apk --no-tree-shake-icons
+flutter build ios --no-tree-shake-icons
+flutter build macos --no-tree-shake-icons
+flutter build windows --no-tree-shake-icons
+flutter build linux --no-tree-shake-icons
+```
+
+This is necessary because AppPlayer renders UI dynamically from JSON, including icon names like `"icon": "folder"`. Without this flag, Material Icons will be removed during compilation and icons won't appear in the UI.
+
 ## Usage
 
 ### Adding a Server
