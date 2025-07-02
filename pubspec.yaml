@@ -1,5 +1,7 @@
 name: app_player
 description: "Universal MCP AppPlayer - Connect to any MCP server and render dynamic UIs"
+homepage: https://app-appplayer.github.io/makemind
+repository: https://github.com/app-appplayer/app_player
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
